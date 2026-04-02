@@ -1,0 +1,49 @@
+# Entorn i secrets
+.env
+*.env
+
+# Logs d'execució
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Entorns virtuals
+venv/
+.venv/
+env/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dades i CSV de calibració (massa grans o locals)
+*.csv
+data/
+
+# Cache de models (sentence-transformers, ~1.8GB)
+# El model es descarrega automàticament en el primer ús
+.cache/
+models/
+
+# Docker volumes (no versionar dades de BD)
+pgdata/
